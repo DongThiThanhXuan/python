@@ -1,0 +1,5 @@
+# Create database and import data
+python manage.py migrate
+
+# create admin user
+python manage.py createsuperuser
